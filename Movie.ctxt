@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=title
+comment0.target=Movie(java.lang.String)
+comment0.text=\r\nCreates\ new\ Movie\ object.\r\n\r\n\ @param\ title\ String,\ title\ of\ movie.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTitle()
+comment2.params=showing
+comment2.target=void\ addShowing(Showing)
+comment3.params=
+comment3.target=java.util.ArrayList\ getShowings()
+comment4.params=review\ rating
+comment4.target=void\ addReviewRating(java.lang.String,\ int)
+comment4.text=\r\n\ Adds\ review\ and\ rating\ to\ reviews\ HashMap.\r\n\r\n\ @param\ review\r\n\ @param\ rating\r\n
+comment5.params=
+comment5.target=double\ returnAverageRating()
+comment5.text=\r\n\ Calculates\ average\ rating\ from\ reviews\ HashMap\ and\ returns\ it.\r\n\r\n\ @return\r\n
+comment6.params=
+comment6.target=java.lang.String\ returnReviewsAndRating()
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=int\ hashCode()
+numComments=9

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=isVip\ id
+comment0.target=Seat(boolean,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getId()
+comment2.params=
+comment2.target=java.util.HashMap\ generateSeats()
+comment2.text=\r\n\ Generates\ a\ Hashmap\ of\ 50\ seat\ objects\ organised\ in\ to\ rows\ and\ columns.\r\n\ Rows\:\ A-E\ were\ E\ is\ a\ row\ of\ VIP\ seats.\r\n\ Columns\:\ 1-10.\r\n\ @return\ Hashmap(Seat,\ Boolean).\ Boolean,\ true\ \=\ Booked,\ false\ \=\ Available.\r\n
+comment3.params=
+comment3.target=boolean\ isVip()
+comment4.params=
+comment4.target=double\ returnPrice()
+comment4.text=\r\n\ Returns\ price\ of\ seat.\r\n\ Vip\:\ 12.00\r\n\ Non\ Vip\:\ 10.00\r\n\ @return\r\n
+comment5.params=seat
+comment5.target=int\ compareTo(Seat)
+numComments=6

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CinemaSystem()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ welcome()
+comment2.text=\r\n\ Initial\ startup.\ User\ can\:\r\n\ -\ Start\ normally\:\ How\ system\ is\ likely\ to\ be\ used\ (String\ inputs\ from\ user\ rather\ than\ hard\ coded\ variables).\r\n\ -\ Start\ Test\:\ Launches\ test\ class.\ Test\ class\ creates\ a\ Cinema\ object\ with\ 6\ screens,\ 5\ Movie\ objects,\ 15\ Customer\r\n\ objects.\ Then\ changes\ the\ seat\ booking\ for\ 1\ customer\ and\ records\ 10\ reviews.\ Finally\ prints\ reports\ for\r\n\ top\ grossing\ movie,\ amount\ grossed\ and\ average\ rating\ per\ movie.\r\n\ -\ Quit\:\ Quits\ system.\r\n
+comment3.params=
+comment3.target=void\ normal()
+comment3.text=\r\n\ Normal\ system\ use.\ Initially\ creates\ a\ Cinema\ object\ and\ adds\ a\ first\ showing.\r\n\ After\ lists\ options\ for\ further\ actions\ which\ can\ be\ taken\:\r\n\ -\ Add\ a\ new\ Showing.\r\n\ -\ Add\ new\ Customer.\r\n\ -\ Add\ a\ review\ for\ a\ movie.\r\n\ -\ Print\ reports.\r\n\ -\ Changing\ a\ booking.\r\n\ -\ Quit.\r\n
+comment4.params=cinema
+comment4.target=boolean\ addShowing(Cinema)
+comment4.text=\r\n\ Creates\ a\ showing\ based\ on\ user\ input.\r\n\r\n\ @param\ cinema\r\n\ @return\ Bool.\ True,\ showing\ added\ successfully.\ False,\ showing\ not\ added\ successfully.\r\n
+comment5.params=
+comment5.target=boolean\ quit()
+comment5.text=\r\n\ Asks\ user\ if\ they\ would\ like\ to\ quit.\r\n\r\n\ @return\ Bool.\ True,\ user\ wants\ to\ quit.\ False,\ user\ does\ not\ want\ to\ quit.\r\n
+comment6.params=
+comment6.target=int\ listOptions()
+comment6.text=\r\n\ Lists\ the\ available\ options\ and\ prompts\ user\ to\ select\ one.\r\n\r\n\ @return\ int\ -\ action\ chosen.\r\n
+comment7.params=cinema
+comment7.target=void\ addReview(Cinema)
+comment7.text=\r\n\ Adds\ a\ review\ and\ rating\ (int\ between\ 1-5).\r\n\ @param\ cinema\r\n
+comment8.params=cinema
+comment8.target=void\ changeBooking(Cinema)
+comment8.text=\r\n\ Changes\ booking.\ Gets\ showing\ and\ seat\ id\ from\ user.\ Unbooks\ given\ seat\ and\r\n\ books\ a\ new\ seat.\r\n\ @param\ cinema\r\n
+numComments=9

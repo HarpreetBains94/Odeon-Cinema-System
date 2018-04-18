@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=show\ seatId\ paymentTypeCard
+comment0.target=Customer(Showing,\ java.lang.String,\ boolean)
+comment0.text=\r\n\ Creates\ new\ Customer\ with\ seat.\ Mainly\ used\ for\ testing.\r\n\ @param\ show\r\n\ @param\ seatId\r\n
+comment1.params=show\ paymentTypeCard
+comment1.target=Customer(Showing,\ boolean)
+comment1.text=\r\n\ Creates\ new\ Customer.\r\n\ @param\ show\r\n
+comment2.params=newShow\ seatId
+comment2.target=void\ changeBooking(Showing,\ java.lang.String)
+comment2.text=\r\n\ Unbooks\ current\ seat\ and\ books\ passed\ in\ seat\ if\ available,\r\n\r\n\ @param\ newShow\r\n\ @param\ seatId\r\n\ @throws\ SeatBookError\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSeat()
+comment4.params=seatId
+comment4.target=void\ setSeatId(java.lang.String)
+numComments=5
